@@ -8,6 +8,6 @@ export const HeaderContainer = styled.header`
     height: 12.5rem;
 
     img {
-        height: 5rem;
+        height: 3rem;
     }
 `
