@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: ${props => props.theme['--gray-400']};
+        justify-content: center;
     }
 
 `

@@ -13,7 +13,8 @@ export function App() {
       <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />
           <Header />
-           <Input />
+          <Input />
+          
       </ThemeProvider>    
     </div>
   )
