@@ -1,9 +1,13 @@
-import { InputTask } from "./styles";
+import { Button } from "../Button";
+import { InputContainer, InputTask } from "./styles";
 
 export function Input() {
     return (
         <div>
-            <InputTask />
+            <InputContainer>
+                <InputTask  placeholder="  Adicione uma nova tarefa"/>
+                <Button />
+            </InputContainer>
         </div>
     )
 }
