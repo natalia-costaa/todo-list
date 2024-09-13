@@ -11,8 +11,9 @@ export const InputContainer = styled.div`
 
 export const InputTask = styled.input`
     background-color: ${props => props.theme['--gray-400']};
-    border-radius: 5px;
+    border: 1px solid ${props => props.theme['--gray-700']};
+    border-radius: 8px;
+
     height: 3.5rem;
     width: 45rem;
-    gap: 2rem;
 `
