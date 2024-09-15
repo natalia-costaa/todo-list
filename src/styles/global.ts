@@ -8,8 +8,12 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: 0;
     }
 
-    body {
-        background: ${props => props.theme['--gray-600']};
+    body::before{
+        background-color: ${props => props.theme['--gray-700']};
     }
 
+    body {
+        background-color: ${props => props.theme['--gray-600']};
+    }
+    
 `
