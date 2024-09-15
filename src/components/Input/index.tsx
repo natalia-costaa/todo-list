@@ -5,7 +5,9 @@ export function Input() {
     return (
         <div>
             <InputContainer>
-                <InputTask  placeholder="  Adicione uma nova tarefa"/>
+                <InputTask  
+                    type="text"
+                    placeholder="  Adicione uma nova tarefa"/>
                 <Button />
             </InputContainer>
         </div>

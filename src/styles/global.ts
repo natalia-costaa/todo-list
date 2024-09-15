@@ -8,12 +8,22 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: 0;
     }
 
-    body::before{
+    body::before {
+        content: "";
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: ${props => props.theme['--gray-700']};
+        width: 100%;
+        height: 20%;
+        z-index: -1;
+
     }
 
     body {
         background-color: ${props => props.theme['--gray-600']};
     }
     
+   
 `
